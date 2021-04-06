@@ -8,6 +8,7 @@ This is a C++ code developed by Qt4.8.6 (MinGW32) and OpenCV3.4.12 to find red s
 
 
 How to use the releae exe
+
 recognize_stamp.exe fileName threshold[default=500]
 example1: recognize_stamp.exe stamp005.jpg 1000
 example2: recognize_stamp.exe stamp005.jpg
