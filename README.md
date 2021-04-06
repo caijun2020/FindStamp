@@ -7,14 +7,13 @@ This is a C++ code developed by Qt4.8.6 (MinGW32) and OpenCV3.4.12 to find red s
 3. It's derived from a python program, I convert it to C++ with Qt.
 
 
-How to use the releae exe
-
+How to use the release exe:
 recognize_stamp.exe fileName threshold[default=500]
 example1: recognize_stamp.exe stamp005.jpg 1000
 example2: recognize_stamp.exe stamp005.jpg
 
 
-How to build
+How to build:
 1. Run qmake
 2. Run build
 3. Copy all dll files in source dir OpenCV/bin/ to shadow build dir, otherwise when run application it will crash
